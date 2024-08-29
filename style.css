@@ -121,8 +121,6 @@ table {
     gap: 10px;
     width: fit-content;
     padding: 7px;
-    border-radius: 5px;
-    border: 1px solid #e1dcdc;
 }
 
 .radio-button label {
