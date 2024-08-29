@@ -107,20 +107,22 @@ table {
 }
 
 .inputRdBtn {
-    display: flex;
+    display: block;
     flex-direction: column;
     gap: 15px;
     margin: 10px 0;
 
 }
 
-
 .radio-button {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 10px;
     width: fit-content;
     padding: 7px;
+    margin-top: 20px;
+    background-color: white;
+    border: none;
 }
 
 .radio-button label {
