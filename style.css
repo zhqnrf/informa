@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Albert Sans";
+}
+
+body {
+    height: 150vh;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    width: 100% !important;
+}
+
+.inputGroup .input {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup .button {
+    width: 20%;
+    margin-top: 20px;
+    /* display: flex;
+    align-items: end; */
+}
+
+.inputGroup .input input {
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #e1dcdc;
+    padding: 0.7rem;
+    background-color: white;
+    transition: 0.1s ease-in;
+}
+
+.inputGroup .input input:focus {
+    border: 1px solid #103972;
+    transition: 0.1s ease-in;
+}
+
+.inputGroup .button button {
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 0.7rem 0;
+    background-color: #103972;
+    color: white;
+    text-align: center;
+    place-self: end;
+    cursor: pointer;
+}
+
+.inputGroup label,
+.inputWrap label {
+    margin-bottom: 5px;
+}
+
+.inputWrap {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+    width: 97%;
+}
+
+.inputRadio {
+    padding: 0.5rem 0;
+}
+
+.labelRequired::after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+}
+
+.table {
+    padding: 1rem 0;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #103972;
+    border-spacing: 0.5rem 0.5rem;
+    border-radius: 2px;
+    background-color: #f6fbff;
+}
+
+.btn {
+    width: 200px;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.inputRdBtn {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px 0;
+
+}
+
+
+.radio-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #e1dcdc;
+}
+
+.radio-button label {
+    margin: 0;
+    font-size: 14px;
+}
+
+.radio-end {
+    margin-right: 10px;
+}
+
+#others {
+    margin-left: 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+}
+
+.captcha-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .title h1 {
+        font-size: 2.25rem !important;
+        line-height: 2.5rem;
+        font-weight: bold !important;
+    }
+
+    .subTitle h2 {
+        font-size: 15px !important;
+        padding: 0 10%;
+    }
+
+    .subTitle2 h3 {
+        font-size: 1.2rem !important;
+        font-weight: 800;
+    }
+
+    .inputWrap input {
+        width: 100% !important;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid #e1dcdc;
+        padding: 0.7rem;
+    }
+}
+
+@media (min-width: 450px) {
+    .container {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* background-color: red; */
+    }
+
+    .title {
+        padding: 1rem 0;
+    }
+
+    .title h1 {
+        color: #666;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+    .subTitle h2 {
+        font-size: 12px;
+        color: #666;
+        padding: 0 10%;
+        text-align: center;
+    }
+
+    .subTitle2 {
+        padding: 1rem 0;
+    }
+
+    .subTitle2 h3 {
+        font-size: 14px;
+        color: #103972;
+        text-align: center;
+    }
+
+    .inputWrap input {
+        width: 95%;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid #e1dcdc;
+        padding: 0.7rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* background-color: red; */
+    }
+
+    .title {
+        padding: 1rem 0;
+    }
+
+    .title h1 {
+        color: #666;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+    .subTitle h2 {
+        font-size: 12px;
+        color: #666;
+        padding: 0 10%;
+        text-align: center;
+    }
+
+    .subTitle2 {
+        padding: 1rem 0;
+    }
+
+    .subTitle2 h3 {
+        font-size: 14px;
+        color: #103972;
+        text-align: center;
+    }
+
+    .inputWrap input {
+        width: 95%;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid #e1dcdc;
+        padding: 0.7rem;
+    }
+}
