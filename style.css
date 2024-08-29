@@ -83,16 +83,8 @@ body {
     margin-left: 5px;
 }
 
-.table {
-    padding: 1rem 0;
-}
-
-table {
-    width: 100%;
-    border: 1px solid #103972;
-    border-spacing: 0.5rem 0.5rem;
-    border-radius: 2px;
-    background-color: #f6fbff;
+.g-recaptcha {
+    margin-top: 5px;
 }
 
 .btn {
@@ -121,7 +113,7 @@ table {
     gap: 10px;
     width: fit-content;
     padding: 7px;
-    margin-top: 20px;
+    margin-top: 5px;
     background-color: white;
     border: none;
 }
@@ -144,7 +136,7 @@ table {
 }
 
 .captcha-btn {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
